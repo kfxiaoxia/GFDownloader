@@ -22,7 +22,7 @@ class GFFileCache  {
         if GFDownloader.isUseNSCache {
             return cachedFiles.object(forKey: url)
         }
-        return GFFileManager.file(url: url, suffix: url.pathExtension)
+        return GFFileManager.file(url: url, suffix: url.pathExtension) as NSData?
     }
     
     
