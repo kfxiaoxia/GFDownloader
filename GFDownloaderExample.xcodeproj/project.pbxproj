@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A941BC28A9293500B99A68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941BB28A9293500B99A68 /* AppDelegate.swift */; };
+		59A941BE28A9293500B99A68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941BD28A9293500B99A68 /* SceneDelegate.swift */; };
+		59A941C028A9293500B99A68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941BF28A9293500B99A68 /* ViewController.swift */; };
+		59A941C328A9293500B99A68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A941C128A9293500B99A68 /* Main.storyboard */; };
+		59A941C528A9293600B99A68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A941C428A9293600B99A68 /* Assets.xcassets */; };
+		59A941C828A9293600B99A68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A941C628A9293600B99A68 /* LaunchScreen.storyboard */; };
+		59A941D328A9293600B99A68 /* GFDownloaderExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941D228A9293600B99A68 /* GFDownloaderExampleTests.swift */; };
+		59A941DD28A9293600B99A68 /* GFDownloaderExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941DC28A9293600B99A68 /* GFDownloaderExampleUITests.swift */; };
+		59A941DF28A9293600B99A68 /* GFDownloaderExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941DE28A9293600B99A68 /* GFDownloaderExampleUITestsLaunchTests.swift */; };
+		59A941F228A9294E00B99A68 /* GFURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941EC28A9294E00B99A68 /* GFURLProtocol.swift */; };
+		59A941F328A9294E00B99A68 /* GFDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941ED28A9294E00B99A68 /* GFDownloader.swift */; };
+		59A941F428A9294E00B99A68 /* GFImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941EE28A9294E00B99A68 /* GFImageCache.swift */; };
+		59A941F628A9294E00B99A68 /* GFFileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941F028A9294E00B99A68 /* GFFileCache.swift */; };
+		59A941F828A92DC300B99A68 /* GFFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A941F728A92DC300B99A68 /* GFFileManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59A941CF28A9293600B99A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A941B028A9293500B99A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A941B728A9293500B99A68;
+			remoteInfo = GFDownloaderExample;
+		};
+		59A941D928A9293600B99A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59A941B028A9293500B99A68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59A941B728A9293500B99A68;
+			remoteInfo = GFDownloaderExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59A941B828A9293500B99A68 /* GFDownloaderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GFDownloaderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A941BB28A9293500B99A68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59A941BD28A9293500B99A68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59A941BF28A9293500B99A68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59A941C228A9293500B99A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59A941C428A9293600B99A68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59A941C728A9293600B99A68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59A941C928A9293600B99A68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A941CE28A9293600B99A68 /* GFDownloaderExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFDownloaderExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A941D228A9293600B99A68 /* GFDownloaderExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDownloaderExampleTests.swift; sourceTree = "<group>"; };
+		59A941D828A9293600B99A68 /* GFDownloaderExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GFDownloaderExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A941DC28A9293600B99A68 /* GFDownloaderExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDownloaderExampleUITests.swift; sourceTree = "<group>"; };
+		59A941DE28A9293600B99A68 /* GFDownloaderExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDownloaderExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		59A941EC28A9294E00B99A68 /* GFURLProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFURLProtocol.swift; sourceTree = "<group>"; };
+		59A941ED28A9294E00B99A68 /* GFDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFDownloader.swift; sourceTree = "<group>"; };
+		59A941EE28A9294E00B99A68 /* GFImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFImageCache.swift; sourceTree = "<group>"; };
+		59A941F028A9294E00B99A68 /* GFFileCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFFileCache.swift; sourceTree = "<group>"; };
+		59A941F728A92DC300B99A68 /* GFFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFileManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59A941B528A9293500B99A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A941CB28A9293600B99A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A941D528A9293600B99A68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A941AF28A9293500B99A68 = {
+			isa = PBXGroup;
+			children = (
+				59A941BA28A9293500B99A68 /* GFDownloaderExample */,
+				59A941D128A9293600B99A68 /* GFDownloaderExampleTests */,
+				59A941DB28A9293600B99A68 /* GFDownloaderExampleUITests */,
+				59A941B928A9293500B99A68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A941B928A9293500B99A68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A941B828A9293500B99A68 /* GFDownloaderExample.app */,
+				59A941CE28A9293600B99A68 /* GFDownloaderExampleTests.xctest */,
+				59A941D828A9293600B99A68 /* GFDownloaderExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59A941BA28A9293500B99A68 /* GFDownloaderExample */ = {
+			isa = PBXGroup;
+			children = (
+				59A941BB28A9293500B99A68 /* AppDelegate.swift */,
+				59A941BD28A9293500B99A68 /* SceneDelegate.swift */,
+				59A941BF28A9293500B99A68 /* ViewController.swift */,
+				59A941EB28A9294E00B99A68 /* GFDownloader */,
+				59A941C128A9293500B99A68 /* Main.storyboard */,
+				59A941C428A9293600B99A68 /* Assets.xcassets */,
+				59A941C628A9293600B99A68 /* LaunchScreen.storyboard */,
+				59A941C928A9293600B99A68 /* Info.plist */,
+			);
+			path = GFDownloaderExample;
+			sourceTree = "<group>";
+		};
+		59A941D128A9293600B99A68 /* GFDownloaderExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				59A941D228A9293600B99A68 /* GFDownloaderExampleTests.swift */,
+			);
+			path = GFDownloaderExampleTests;
+			sourceTree = "<group>";
+		};
+		59A941DB28A9293600B99A68 /* GFDownloaderExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59A941DC28A9293600B99A68 /* GFDownloaderExampleUITests.swift */,
+				59A941DE28A9293600B99A68 /* GFDownloaderExampleUITestsLaunchTests.swift */,
+			);
+			path = GFDownloaderExampleUITests;
+			sourceTree = "<group>";
+		};
+		59A941EB28A9294E00B99A68 /* GFDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				59A941EC28A9294E00B99A68 /* GFURLProtocol.swift */,
+				59A941ED28A9294E00B99A68 /* GFDownloader.swift */,
+				59A941EE28A9294E00B99A68 /* GFImageCache.swift */,
+				59A941F028A9294E00B99A68 /* GFFileCache.swift */,
+				59A941F728A92DC300B99A68 /* GFFileManager.swift */,
+			);
+			path = GFDownloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59A941B728A9293500B99A68 /* GFDownloaderExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A941E228A9293600B99A68 /* Build configuration list for PBXNativeTarget "GFDownloaderExample" */;
+			buildPhases = (
+				59A941B428A9293500B99A68 /* Sources */,
+				59A941B528A9293500B99A68 /* Frameworks */,
+				59A941B628A9293500B99A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GFDownloaderExample;
+			productName = GFDownloaderExample;
+			productReference = 59A941B828A9293500B99A68 /* GFDownloaderExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59A941CD28A9293600B99A68 /* GFDownloaderExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A941E528A9293600B99A68 /* Build configuration list for PBXNativeTarget "GFDownloaderExampleTests" */;
+			buildPhases = (
+				59A941CA28A9293600B99A68 /* Sources */,
+				59A941CB28A9293600B99A68 /* Frameworks */,
+				59A941CC28A9293600B99A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A941D028A9293600B99A68 /* PBXTargetDependency */,
+			);
+			name = GFDownloaderExampleTests;
+			productName = GFDownloaderExampleTests;
+			productReference = 59A941CE28A9293600B99A68 /* GFDownloaderExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59A941D728A9293600B99A68 /* GFDownloaderExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A941E828A9293600B99A68 /* Build configuration list for PBXNativeTarget "GFDownloaderExampleUITests" */;
+			buildPhases = (
+				59A941D428A9293600B99A68 /* Sources */,
+				59A941D528A9293600B99A68 /* Frameworks */,
+				59A941D628A9293600B99A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59A941DA28A9293600B99A68 /* PBXTargetDependency */,
+			);
+			name = GFDownloaderExampleUITests;
+			productName = GFDownloaderExampleUITests;
+			productReference = 59A941D828A9293600B99A68 /* GFDownloaderExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59A941B028A9293500B99A68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					59A941B728A9293500B99A68 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					59A941CD28A9293600B99A68 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 59A941B728A9293500B99A68;
+					};
+					59A941D728A9293600B99A68 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 59A941B728A9293500B99A68;
+					};
+				};
+			};
+			buildConfigurationList = 59A941B328A9293500B99A68 /* Build configuration list for PBXProject "GFDownloaderExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59A941AF28A9293500B99A68;
+			productRefGroup = 59A941B928A9293500B99A68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59A941B728A9293500B99A68 /* GFDownloaderExample */,
+				59A941CD28A9293600B99A68 /* GFDownloaderExampleTests */,
+				59A941D728A9293600B99A68 /* GFDownloaderExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59A941B628A9293500B99A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A941C828A9293600B99A68 /* LaunchScreen.storyboard in Resources */,
+				59A941C528A9293600B99A68 /* Assets.xcassets in Resources */,
+				59A941C328A9293500B99A68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A941CC28A9293600B99A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A941D628A9293600B99A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A941B428A9293500B99A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A941F228A9294E00B99A68 /* GFURLProtocol.swift in Sources */,
+				59A941F428A9294E00B99A68 /* GFImageCache.swift in Sources */,
+				59A941C028A9293500B99A68 /* ViewController.swift in Sources */,
+				59A941F328A9294E00B99A68 /* GFDownloader.swift in Sources */,
+				59A941F628A9294E00B99A68 /* GFFileCache.swift in Sources */,
+				59A941BC28A9293500B99A68 /* AppDelegate.swift in Sources */,
+				59A941F828A92DC300B99A68 /* GFFileManager.swift in Sources */,
+				59A941BE28A9293500B99A68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A941CA28A9293600B99A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A941D328A9293600B99A68 /* GFDownloaderExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59A941D428A9293600B99A68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A941DD28A9293600B99A68 /* GFDownloaderExampleUITests.swift in Sources */,
+				59A941DF28A9293600B99A68 /* GFDownloaderExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59A941D028A9293600B99A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A941B728A9293500B99A68 /* GFDownloaderExample */;
+			targetProxy = 59A941CF28A9293600B99A68 /* PBXContainerItemProxy */;
+		};
+		59A941DA28A9293600B99A68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59A941B728A9293500B99A68 /* GFDownloaderExample */;
+			targetProxy = 59A941D928A9293600B99A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59A941C128A9293500B99A68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A941C228A9293500B99A68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59A941C628A9293600B99A68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A941C728A9293600B99A68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59A941E028A9293600B99A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59A941E128A9293600B99A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59A941E328A9293600B99A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GFDownloaderExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zc.GFDownloaderExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59A941E428A9293600B99A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GFDownloaderExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zc.GFDownloaderExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59A941E628A9293600B99A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zc.GFDownloaderExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFDownloaderExample.app/GFDownloaderExample";
+			};
+			name = Debug;
+		};
+		59A941E728A9293600B99A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zc.GFDownloaderExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GFDownloaderExample.app/GFDownloaderExample";
+			};
+			name = Release;
+		};
+		59A941E928A9293600B99A68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zc.GFDownloaderExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFDownloaderExample;
+			};
+			name = Debug;
+		};
+		59A941EA28A9293600B99A68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zc.GFDownloaderExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GFDownloaderExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A941B328A9293500B99A68 /* Build configuration list for PBXProject "GFDownloaderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A941E028A9293600B99A68 /* Debug */,
+				59A941E128A9293600B99A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A941E228A9293600B99A68 /* Build configuration list for PBXNativeTarget "GFDownloaderExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A941E328A9293600B99A68 /* Debug */,
+				59A941E428A9293600B99A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A941E528A9293600B99A68 /* Build configuration list for PBXNativeTarget "GFDownloaderExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A941E628A9293600B99A68 /* Debug */,
+				59A941E728A9293600B99A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A941E828A9293600B99A68 /* Build configuration list for PBXNativeTarget "GFDownloaderExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A941E928A9293600B99A68 /* Debug */,
+				59A941EA28A9293600B99A68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59A941B028A9293500B99A68 /* Project object */;
+}
